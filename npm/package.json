@@ -1,0 +1,39 @@
+{
+    "name": "tesfix",
+    "version": "0.1.0-alpha.0",
+    "description": "An embedded JSON document database for the browser: SQLite compiled to WebAssembly, saved in IndexedDB.",
+    "keywords": ["database", "document", "json", "sqlite", "webassembly", "wasm", "indexeddb", "offline", "embedded"],
+    "license": "SEE LICENSE IN LICENSE",
+    "author": "Patrick Kwame Ayensu",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rakuten-rak/TesfixDb.git"
+    },
+    "homepage": "https://github.com/rakuten-rak/TesfixDb#readme",
+    "bugs": {
+      "url": "https://github.com/rakuten-rak/TesfixDb/issues"
+    },
+    "type": "module",
+    "main": "./dist/tesfix.mjs",
+    "module": "./dist/tesfix.mjs",
+    "types": "./dist/tesfix.d.ts",
+    "exports": {
+      ".": {
+        "types": "./dist/tesfix.d.ts",
+        "import": "./dist/tesfix.mjs",
+        "default": "./dist/tesfix.mjs"
+      },
+      "./tesfix.wasm": "./dist/tesfix_wasm.wasm",
+      "./package.json": "./package.json"
+    },
+    "files": ["dist", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md"],
+    "sideEffects": false,
+    "scripts": {
+      "build": "node scripts/copy-build.mjs ../build-wasm-web",
+      "prepack": "node scripts/check-package.mjs"
+    },
+    "publishConfig": {
+      "access": "public",
+      "tag": "next"
+    }
+  }
