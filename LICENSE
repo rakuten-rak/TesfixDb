@@ -1,0 +1,70 @@
+Copyright (c) 2026 Patrick Kwame Ayensu. All Rights Reserved.
+
+TESFIX — PROPRIETARY EVALUATION & CONFIDENTIAL SOURCE LICENSE
+
+This License Agreement ("Agreement") governs your use of Tesfix, including 
+its compiled WebAssembly binaries, JavaScript/TypeScript wrappers, header 
+files, documentation, and—only if explicitly provided to you by the 
+Copyright Holder—source code ("Software") owned by Patrick Kwame Ayensu 
+("Licensor").
+
+By downloading, installing, accessing, or using the Software, you agree 
+to be bound by the terms of this Agreement.
+
+1. OWNERSHIP
+Licensor retains all right, title, and interest, including all intellectual 
+property rights, in and to the Software. No rights are granted to you 
+except as expressly stated in this Agreement.
+
+2. COMPILED BINARIES & PUBLIC INTERFACES (EVALUATION GRANT)
+Subject to your compliance with this Agreement, Licensor grants you a 
+limited, non-exclusive, non-transferable, revocable license to download, 
+install, and integrate the compiled binaries and public TypeScript/JavaScript 
+interfaces solely for personal, educational, and internal evaluation purposes.
+
+3. SOURCE CODE ACCESS & CONFIDENTIALITY (IF APPLICABLE)
+Public distribution of this Software does not include source code. If 
+Licensor explicitly grants you access to the Software's source code 
+(such as through a private repository or direct transfer):
+  (a) Confidential Information: You acknowledge that the source code, 
+      architecture, and internal algorithms constitute valuable trade 
+      secrets and Confidential Information of Licensor.
+  (b) Non-Disclosure: You shall hold the source code in strict confidence 
+      and shall not disclose, publish, upload, share, or make it accessible 
+      to any third party without Licensor's prior written consent.
+  (c) Limited Internal Use: You may compile and inspect the source code 
+      solely for internal evaluation and integration testing.
+
+4. RESTRICTIONS
+Without a separate written commercial license from Licensor, you may NOT:
+  (a) Redistribute, sublicense, sell, lease, rent, or transfer any part 
+      of the Software (whether compiled binaries or source code);
+  (b) Deploy or use the Software in a production environment or within any 
+      commercial product or service;
+  (c) Offer the Software, or any derivative work, as a hosted, cloud, 
+      SaaS, or managed service;
+  (d) Reverse engineer, decompile, disassemble, or otherwise attempt to 
+      derive the source code from the compiled WebAssembly or binary files 
+      (except to the limited extent expressly permitted by applicable 
+      mandatory law).
+
+5. TERMINATION
+This Agreement is effective until terminated. Your rights under this 
+Agreement terminate automatically without notice if you fail to comply 
+with any of its terms. Upon termination, you must immediately cease all 
+use of the Software and destroy all copies (including any source code and 
+compiled files) in your possession.
+
+6. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL 
+LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
+THE SOFTWARE.
+
+----------------------------------------------------------------------
+THIRD-PARTY NOTICES
+----------------------------------------------------------------------
+This Software incorporates SQLite (Public Domain) and JSON for Modern C++ 
+(nlohmann/json, MIT License). See THIRD_PARTY_NOTICES.md for full details.
